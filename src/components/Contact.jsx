@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
 const Contact = ({ darkMode }) => {
+
 const [templateParams, setTemplateParams] = useState({
         from_name: '',
         message: ''
@@ -19,7 +20,7 @@ const [templateParams, setTemplateParams] = useState({
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        emailjs.send('service_vjuue5m', 'template_96clll8', templateParams, 'user_aGjlUxhHVrd2775oHAEb0')
+        emailjs.send('service_dbhai8b', 'template_kvyxjtb', templateParams, 'MVSoBMyZ3TujCVjmS')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
@@ -48,7 +49,7 @@ const [templateParams, setTemplateParams] = useState({
 
                         <h2 className="lead">Contact Details</h2>
                         <div className="contact-text">
-                            <p>Divya  <br />Jagriti,Vihar,Meerut <br /> <strong style={{fontWeight:"600"}}>7508707000</strong>
+                            <p>Divya  <br />Jagriti,Vihar,Meerut <br /> <strong style={{fontWeight:"600"}}>8439637030</strong>
                                 <br />
                                 <strong style={{fontWeight:"600"}}>divyajain3419@gmail.com</strong>
                             </p>
@@ -62,10 +63,10 @@ const [templateParams, setTemplateParams] = useState({
 
                         <Form onSubmit={e => onSubmit(e)}>
                             <Form.Group>
-                                <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name" />
+                    <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name" />
                             </Form.Group>
                             <br/>
-                            <Form.Group>
+                <Form.Group>
                                 <Form.Control onChange={e => onInputChange(e)} value={templateParams.message} name="message" as="textarea" rows={8} className="ph msg" placeholder="Enter your message" />
                             </Form.Group>
                             <Button style={{marginTop:"1.3%"}} variant={darkMode ? "outline-light" : "outline-dark"} type="submit">
