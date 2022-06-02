@@ -28,7 +28,7 @@ function App() {
             className="navbar"
             data-theme={darkMode ? "dark" : "light"}
           >
-            {/* <img style={{width: "5%", height: "2%",marginLeft:"1%"}} src="https://o.remove.bg/downloads/846efb66-694b-4cdf-99ab-e5c82e55479f/images-removebg-preview.png" alt="" /> */}
+    
             <Navbar.Brand href="#home" className="navname">
               Welcome
             </Navbar.Brand>
