@@ -10,9 +10,8 @@ import {
   faCss3Alt,
   faHtml5,
   faJs,
-  faNodeJs,
   faReact,
-  faBootstrap,
+
 } from "@fortawesome/free-brands-svg-icons";
 
 const Skills = ({ darkMode }) => {
@@ -68,39 +67,7 @@ const Skills = ({ darkMode }) => {
                   <FontAwesomeIcon className="skill" size="2x" icon={faReact} />
                 </Button>
                 <br />
-
-                <Button
-                  variant={darkMode ? "outline-light" : "outline-dark"}
-                  className="skills-btn"
-                >
-                  <FontAwesomeIcon
-                    className="skill"
-                    size="2x"
-                    icon={faNodeJs}
-                  />
-                </Button>
-                <br />
-                <Button
-                  variant={darkMode ? "outline-light" : "outline-dark"}
-                  className="skills-btn"
-                >
-                  <FontAwesomeIcon
-                    className="skill"
-                    size="2x"
-                    icon={faNodeJs}
-                  />
-                </Button>
-                <br />
-                <Button
-                  variant={darkMode ? "outline-light" : "outline-dark"}
-                  className="skills-btn"
-                >
-                  <FontAwesomeIcon
-                    className="skill"
-                    size="2x"
-                    icon={faBootstrap}
-                  />
-                </Button>
+               
               </Card>
             </Col>
             <Col lg={6} xs={12}>
@@ -115,14 +82,8 @@ const Skills = ({ darkMode }) => {
               </Card>
               <Card className="skill-nbcard">
                 <Card.Body>
-                  <Card.Title>Backend</Card.Title>
-                  <Card.Text>ExpressJS, NodeJS, MongoDB.</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card className="skill-nbcard">
-                <Card.Body>
                   <Card.Title>Tools</Card.Title>
-                  <Card.Text>Git & Github, PostMan, MongoDB Atlas.</Card.Text>
+                  <Card.Text>Git & Github, PostMan</Card.Text>
                 </Card.Body>
               </Card>
             </Col>

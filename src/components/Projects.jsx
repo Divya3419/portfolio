@@ -5,7 +5,7 @@ import Button from "react-bootstrap/esm/Button";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import Card from "react-bootstrap/esm/Card";
-import ideakart from "../media/ideakart.png";
+import bluemercury from "../media/bluemercury.png";
 import potterybarn from "../media/potterybarn.png";
 import lumen5 from "../media/lumen5.png";
 
@@ -33,16 +33,16 @@ const Experience = ({ darkMode }) => {
                     <div className="flip-card" class="flip-card">
                       <div class="flip-card-inner">
                         <div className="flip-card-front">
-                          <Card.Img variant="top" src={ideakart} />
+                          <Card.Img variant="top" src={bluemercury} />
                           <Card.Body>
                             <Card.Title align="center">
-                              -Clone Of Ideakart-
+                              -Clone Of Bluemercury-
                             </Card.Title>
                             <Card.Text>
                               <td style={{ fontSize: "14px" }}>
                                 <p align="center">Features</p>
                                 <tr>Fully dynamic products page</tr>
-                                <tr>Modal based cart feature</tr>
+                                <tr> cart feature</tr>
                                 <tr>Product filtering</tr>
                                 <tr>Social SIgn-In/Sign-up</tr>
                                 {/* <tr>User authentication</tr> */}
@@ -78,6 +78,8 @@ const Experience = ({ darkMode }) => {
                             width="40"
                             height="40"
                           />
+                          
+                          
                         </div>
                       </div>
                     </div>
@@ -86,7 +88,7 @@ const Experience = ({ darkMode }) => {
                   <br />
                   <div>
                     <a
-                      href="https://stupendous-cajeta-bbcb82.netlify.app/"
+                      href="https://bluemercury.netlify.app/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -98,7 +100,7 @@ const Experience = ({ darkMode }) => {
                       </Button>
                     </a>
                     <a
-                      href="https://github.com/Divya3419/Ideakart-clone"
+                      href="https://github.com/Divya3419/native-fog-9540"
                       target="_blank"
                       rel="noreferrer noopener"
                     >

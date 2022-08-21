@@ -138,12 +138,9 @@ const About = ({ darkMode }) => {
                     </Button>
                   </a>
 
-                  <a className="social-icons" href="https://www.instagram.com/dpd_i_v_y_a_/" target="_blank" rel="noreferrer noopener">
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"}>
-                      <FontAwesomeIcon className="dark" size="lg" icon={faInstagramSquare} />
-                    </Button>
-                  </a>
-                  {/* <img src={darkMode ? connectDark : connectLight} alt="connect" className="connect-img img-fluid animated" /> */}
+                 
+                 
+                  
                 </Card.Body>
               </Card>
             </Col>

@@ -1,25 +1,11 @@
-/* * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-} */
 
-/* *{
-    font-family: 'Open Sans', sans-serif;
-} */
 
 * {
     font-family:"Urbanist",sans-serif;
 }
 
 
-/* :root {
-    --bg-color: #f9edc2;
-    --text-color: black;
-    --page-color: #f9edc2;
-    --hello: #121212;
-    --description: black;
-    --name: #690fad;
-    --border-width: 1px;
-} */
+
 
 :root {
     --bg-color: #D8EEFE;
