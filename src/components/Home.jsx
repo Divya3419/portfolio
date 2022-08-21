@@ -22,12 +22,7 @@ const Home = ({ darkMode }) => {
                 <Row>
                     <Col lg={12} xs={12}>
                         <h1 className="display-3 hello" align="center"><code> I'm Divya </code></h1>
-                        <h2 className="lead" align="center">I
-                            <span
-                                class="txt-rotate"
-                                data-period="500"
-                                data-rotate='[ " am a React Frontend Developer"]'>
-                            </span>
+                        <h2 className="lead" align="center">I am a React Frontend Developer
                         </h2>
                     </Col>
                 </Row>

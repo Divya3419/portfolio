@@ -17,7 +17,7 @@ import "./components/button.css"
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
-  console.log(process.env);
+  //console.log(process.env);
 
   return (
     // <Routes>
