@@ -25,6 +25,12 @@ const Home = () => {
             <h2 className="lead" align="center">
               I am a React Frontend Developer
             </h2>
+            <p className="lead" align="center">
+              Currently working as a Frontend Developer at Knorex the
+              in Pune, Maharashtra, India · Remote, I have been working
+              on HTML, CSS, React, Redux, Bootstrap (other UI
+              libraries) since sepetember 2022.
+            </p>
           </Col>
         </Row>
       </AttentionSeeker>
