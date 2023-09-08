@@ -11,9 +11,10 @@ import {
   faHtml5,
   faJs,
   faReact,
+  faRedux,
 
 } from "@fortawesome/free-brands-svg-icons";
-
+import skillimg from "../media/bg.jpg"
 const Skills = ({ darkMode }) => {
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
@@ -26,7 +27,7 @@ const Skills = ({ darkMode }) => {
                 I can work <p className="with">with</p>{" "}
               </h1>
               <img
-                src="https://namtphan.github.io/static/media/laptop.9e0aebbb.svg"
+                src={skillimg}
                 alt="skills"
                 className="skills-img img-fluid animated"
               />
@@ -67,7 +68,7 @@ const Skills = ({ darkMode }) => {
                   <FontAwesomeIcon className="skill" size="2x" icon={faReact} />
                 </Button>
                 <br />
-               
+                 
               </Card>
             </Col>
             <Col lg={6} xs={12}>
@@ -76,7 +77,7 @@ const Skills = ({ darkMode }) => {
                 <Card.Body>
                   <Card.Title>Front End</Card.Title>
                   <Card.Text>
-                    HTML, CSS, JavaScript, ReactJs, Redux,TypeScript
+                    HTML, CSS, JavaScript, ReactJs, Redux
                   </Card.Text>
                 </Card.Body>
               </Card>
