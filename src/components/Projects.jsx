@@ -40,12 +40,9 @@ const Experience = ({ darkMode }) => {
                             </Card.Title>
                             <Card.Text>
                               <td style={{ fontSize: "14px" }}>
-                                <p align="center">Features</p>
-                                <tr>Fully dynamic products page</tr>
-                                <tr> cart feature</tr>
-                                <tr>Product filtering</tr>
-                                <tr>Social SIgn-In/Sign-up</tr>
-                                {/* <tr>User authentication</tr> */}
+                                <p>Tech Stack: HTML, CSS, JavaScript, React, Redux</p>
+                                <p align="center">Features:</p>
+                                <tr>Fully dynamic products page, Cart Feature, Product Filtering, Social Sign-in/Sign-up</tr>
                               </td>
                             </Card.Text>
                           </Card.Body>
@@ -133,16 +130,12 @@ const Experience = ({ darkMode }) => {
                             </Card.Title>
                             <Card.Text>
                               <td style={{ fontSize: "14px" }}>
-                                <p align="center">Features</p>
+                                <p>Tech Stack: HTML, CSS, JavaScript</p>
+                                <p align="center">Features:</p>
                                 <tr>
-                                  Sign-in/Sign-up page with OTP verification
+                                  Sign-in/Sign-up page with OTP verification, Categorization of products with carousel, Various filter functionalities.
+                                  effect, Product page with Pincode verification
                                 </tr>
-                                <tr>
-                                  Categorization of products with carousel
-                                  effect
-                                </tr>
-                                <tr>Various filter functionalities.</tr>
-                                <tr>Product page with Pincode verification.</tr>
                               </td>
                             </Card.Text>
                           </Card.Body>
@@ -220,11 +213,9 @@ const Experience = ({ darkMode }) => {
                             </Card.Title>
                             <Card.Text>
                               <td style={{ fontSize: "14px" }}>
-                                <p align="center">Features</p>
-                                <tr>Landing page with CSS effects.</tr>
-                                <tr>Social Sign-in/Sign-up</tr>
-                                <tr>User authentication</tr>
-                                <tr>contact-us and review page..</tr>
+                                <p>Tech Stack: HTML, CSS, JavaScript</p>
+                                <p align="center">Features:</p>
+                                <tr>Landing page with CSS effects, Social Sign-in/Sign-up, User authentication, contact-us and review page</tr>
                               </td>
                             </Card.Text>
                           </Card.Body>
