@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "./styles.css";
-import resume from "../media/Divya Resume.pdf";
+import resume from "../media/Divya's Resume.pdf";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
