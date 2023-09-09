@@ -6,7 +6,6 @@ import resume from "../media/Divya's Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
-  faInstagramSquare,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
